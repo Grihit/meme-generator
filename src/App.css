@@ -41,17 +41,16 @@
 
 .flex--container>input{
   border: #D5D4D8 solid 1px;
-  height: 20px;
+  height: 30px;
   width: 45%;
   border-radius: 5px;
   font-size: 0.75rem;
   font-family: 'Karla';
   color: #0D0D0D;
-  padding: 5px;
+  text-indent: 5px;
 }
 
 .flex--container>input::placeholder{
-  padding: 5px;
   font-size: .75rem;
   font-family: 'Karla';
 }
@@ -68,4 +67,10 @@
   font-size: 1rem;
   line-height: 19px;
   color:#FFFFFF;
+  cursor: pointer;
+}
+
+.meme--img{
+  width: 100%;
+  margin-top: 47px;
 }
