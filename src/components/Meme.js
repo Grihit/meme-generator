@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Meme(){
+export default function Meme(props){
     const [meme, setMeme] = React.useState({
         topText: "",
         bottomText: "",
@@ -25,7 +25,7 @@ export default function Meme(){
             }
         })
     }
-    
+
     function handleChange(event){
         const {name,value} = event.target
         setMeme(prevMeme => {
@@ -49,16 +49,18 @@ export default function Meme(){
                             value={meme.topText}
                             name="topText"
                             onChange={handleChange}
-                        />
+                            className={props.dark ? "dark--input" : "light--input"}
+                            />
                         <input 
                             type="text" 
                             placeholder="Enter Bottom Text"
                             value={meme.bottomText}
                             name="bottomText"
                             onChange={handleChange}
+                            className={props.dark ? "dark--input" : "light--input"}
                         />
                     </div>
-                    <button onClick={getMemeImage} className="meme--button">Get a new meme image</button>
+                    <button onClick={getMemeImage} className={`meme--button ${props.dark ? "dark--gradient dark--button" : ""}`}>Get a new meme image</button>
                 </form>
                 <div className="meme--image--div">
                     {meme.randomImage && <img src={meme.randomImage} alt="Meme" className="meme--img" />}
