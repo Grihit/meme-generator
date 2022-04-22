@@ -13,6 +13,7 @@ export default function Meme(){
             .then(res => res.json())
             .then(data => setAllMemeImages(data))
     }, [])
+
     function getMemeImage(){
         const memesArray = allMemeImages.data.memes
         const randomNumber = Math.floor(Math.random() * memesArray.length)
@@ -24,6 +25,7 @@ export default function Meme(){
             }
         })
     }
+    
     function handleChange(event){
         const {name,value} = event.target
         setMeme(prevMeme => {
