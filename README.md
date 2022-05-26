@@ -1,3 +1,16 @@
+# Workflow of the web app
+
+## Landing Page
+![Landing Page](https://github.com/Grihit/meme-generator/blob/master/public/images/Home_Page.PNG?raw=true)
+
+## Generating a meme with text
+![Landing Page](https://github.com/Grihit/meme-generator/blob/master/public/images/Meme1.PNG?raw=true)
+
+## Dark Mode enabled
+![Landing Page](https://github.com/Grihit/meme-generator/blob/master/public/images/Meme_Dark.PNG?raw=true)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
