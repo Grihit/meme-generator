@@ -4,10 +4,10 @@
 ![Landing Page](https://github.com/Grihit/meme-generator/blob/master/public/images/Home_Page.PNG?raw=true)
 
 ## Generating a meme with text
-![Landing Page](https://github.com/Grihit/meme-generator/blob/master/public/images/Meme1.PNG?raw=true)
+![Meme](https://github.com/Grihit/meme-generator/blob/master/public/images/Meme1.PNG?raw=true)
 
 ## Dark Mode enabled
-![Landing Page](https://github.com/Grihit/meme-generator/blob/master/public/images/Meme_Dark.PNG?raw=true)
+![Dark Mode](https://github.com/Grihit/meme-generator/blob/master/public/images/Meme_Dark.PNG?raw=true)
 
 
 
